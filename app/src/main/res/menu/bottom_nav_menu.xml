@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_advertise_fragment"
+        android:icon="@drawable/ic_advertise"
+        android:title="@string/title_advertiser" />
+
+    <item
+        android:id="@+id/id_scan_fragment"
+        android:icon="@drawable/ic_scan"
+        android:title="@string/title_scanner" />
+
+    <item
+        android:id="@+id/id_settings_fragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/title_settings" />
+
+</menu>

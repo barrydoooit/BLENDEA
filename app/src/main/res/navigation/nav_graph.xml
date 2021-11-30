@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/id_advertise_fragment">
+    <fragment
+        android:id="@+id/id_advertise_fragment"
+        android:name="com.neighbordiscoveryemulator.Fragments.AdvertiserFragment"
+        android:label="advertiser"
+        tools:layout="@layout/fragment_advertiser" />
+    <fragment
+        android:id="@+id/id_scan_fragment"
+        android:name="com.neighbordiscoveryemulator.Fragments.ScannerFragment"
+        android:label="scanner"
+        tools:layout="@layout/fragment_scanner" />
+    <fragment
+        android:id="@+id/id_settings_fragment"
+        android:name="com.neighbordiscoveryemulator.Fragments.SettingsFragment"
+        android:label="settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
